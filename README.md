@@ -1,6 +1,6 @@
 # Piano String Inverse Problem: Designing a 2 kHz Instrument
 
-Design a piano string that sounds at 2 kHz, then synthesize it and check the frequency content with an FFT. This is a project for *Discrete Signals and Inverse Problems*.
+Design a piano string that sounds at 2 kHz, then synthesize it and check the frequency content with an FFT. This is a project from the textbook *Discrete Signals and Inverse Problems* by J. Carlos Santamarina and Dante Fratta (see [References](#references)).
 
 The full writeup, with derivations, plots, and discussion, is in [`code/piano_simulation.ipynb`](code/piano_simulation.ipynb).
 
@@ -48,7 +48,7 @@ The full writeup, with derivations, plots, and discussion, is in [`code/piano_si
 
 ## How to Run
 
-Requires Python 3.13 (3.10+ should work).
+Requires Python 3.13 
 
 ```bash
 git clone https://github.com/cvivere/piano_inverse_problem.git
@@ -66,6 +66,6 @@ jupyter notebook code/piano_simulation.ipynb
 
 ## References
 
-1. *[Ideal string frequency source]*
-2. Karplus, K., & Strong, A. (1983). Digital Synthesis of Plucked-String and Drum Timbres. *Computer Music Journal*, 7(2), 43–55.
-3. *[Note/cents conversion source]*
+**Textbook:** Santamarina, J. C., & Fratta, D. (2005). *Discrete Signals and Inverse Problems: An Introduction for Engineers and Scientists*. Chichester, UK: John Wiley & Sons.
+
+Karplus, K., & Strong, A. (1983). Digital Synthesis of Plucked-String and Drum Timbres. *Computer Music Journal*, 7(2), 43–55.
